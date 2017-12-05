@@ -312,6 +312,6 @@ public class Carousel extends EpoxyRecyclerView {
      * with a Carousel.
      */
     @NonNull
-    abstract SnapHelper buildSnapHelper(Context context);
+    public abstract SnapHelper buildSnapHelper(Context context);
   }
 }
